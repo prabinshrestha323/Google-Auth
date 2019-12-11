@@ -59,6 +59,10 @@ app.get("/", (req, res) => {
   res.send(" this is our page");
 });
 
+// app.get("/login", (req, res) => {
+//   res.render("login");
+// });
+
 const port = process.env.PORT || 200;
 app.listen(port, (req, res) => {
   console.log(`this is the port ${port}`);
